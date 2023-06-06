@@ -1,0 +1,41 @@
+html {
+  background-color: #3e62a0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  position: absolute;
+}
+
+.absolute {
+  position: absolute;
+  top: 90%;
+  display: flex;
+}
+
+.input {
+  width: 9rem;
+  text-align: center;
+  height: 1.5rem;
+  font-size: 1rem;
+  background-color: #1c2c46;
+  border: none;
+  border-bottom: 2px solid #3e62a0;
+  color: white;
+  margin: 15px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  cursor: pointer;
+}
